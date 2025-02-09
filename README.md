@@ -2,7 +2,7 @@
 # MIDI Device LED & Button Mapping
 
 ## Overview
-This repository documents the **MIDI implementation** for my device, including **LED control, button remapping, and color mapping**. The purpose is to provide a structured reference for custom MIDI feedback and lighting behavior.
+This repository documents the **MIDI implementation** for the [MIDICraft Fade Device](https://www.midicraft.de/en/product/midicraft-fade%c2%b2-black-edition/), including **LED control, button remapping, and color mapping**. The purpose is to provide a structured reference for custom MIDI feedback and lighting behavior.
 
 ## Important Changes
 🔹 **Button Remapping**: I have **remapped all buttons** to start at **Channel 1, Note 1 (0x01)** rather than **Note 0 (0x00)**.
@@ -67,6 +67,12 @@ MidiOut 0x80, 0x14, 0x00  # Note Off - Note 20
 ```
 
 ---
+
+## 🚀 Pangoscript Programming
+I want to make this work for timeline programming as easily as possible and it seems like Pangoscript is the only way to do it. 
+
+
+
 
 ## 🚀 Next Steps
 ✅ Further refine color mappings and confirm additional LED behaviors.
